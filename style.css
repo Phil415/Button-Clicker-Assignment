@@ -23,6 +23,7 @@
 
  .ninjaCard button{
     background-color: rgb(48, 223, 57);
+    padding: 5px 10px;
 }
 
 .col .ninjaCard button{
