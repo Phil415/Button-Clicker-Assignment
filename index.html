@@ -1,45 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Button Clicker</title>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Button Clicker</title>
+</head>
+
 <body>
     <div id="nav">
-        <ul id="navLinks">
-            <li><h1>Dojonary</h1> </li>
-        </ul>
-        <button onclick = "displayName(this)">Login</button>
-        <div id="login" class="element" onclick="displayName('Logout')">
-
-        </div>
+        <h1>Dojonary</h1>
+        <input type="text" placeholder="Search">
+        <button onclick="displayName(this)">Login</button>
     </div>
     <div id="main">
         <div class="col-2">
-            <div id="definition1" class="element">
-                <div class="element">
+            <div class="ninjaCard">
+                <div class="">
                     <h1>ninja</h1>
                     <p>noun</p>
                     <p>Plural: ninjas</p>
-                    <p>A practitioner skilled in the Japanese art of ninjutsu</p></a>
-                <button><span>0</span>likes</button>
-            <div id="definition2" class="element">
-                <div class="element">
-                     <h1>ninja</h1>
+                    <button onclick="alert('ninja was liked')">13 likes</button>
+                </div>
+                <p>A practitioner skilled in the Japanese art of ninjutsu</p>
+            </div>
+            <div class="ninjaCard">
+                <div class="">
+                    <h1>ninja</h1>
                     <span>noun</span>
                     <p>Plural: ninjas</p>
-                    <p>A programmer who breaks down problems with zen-like foucus</p></a>
-                <button><span>0</span>likes</button>
+                    <button>37 likes</button>
                 </div>
+                <p>A programmer who breaks down problems with zen-like foucus</p>
             </div>
-        <div class="col">
-            <div id="your definition" class="element">
-            </div>
+            
         </div>
-    </div>
-    <script src="index.js"></script>
+        <div id="yourDef" class="col">
+            <p>Dojonary is defined by YOU</p>
+            <button>Add Definition</button>
+        </div>
+        <script src="index.js"></script>
 </body>
+
 </html>
