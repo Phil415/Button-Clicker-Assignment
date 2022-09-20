@@ -16,11 +16,15 @@
 }
 
 #nav button {
-    background-color: blue;
+    background-color: rgb(11, 156, 229);
     color:whitesmoke;
 }
 
-#main button{
+ .ninjaCard button{
+    background-color: rgb(105, 216, 153);
+}
+
+.col .ninjaCard button{
     background-color: gold;
 }
 
