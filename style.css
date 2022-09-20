@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #nav{
@@ -21,7 +22,7 @@
 }
 
  .ninjaCard button{
-    background-color: rgb(105, 216, 153);
+    background-color: rgb(48, 223, 57);
 }
 
 .col .ninjaCard button{
