@@ -11,3 +11,4 @@ function add1() {
     countElement.innerText = "the count is" + count;
     console.log(count);
 }
+
